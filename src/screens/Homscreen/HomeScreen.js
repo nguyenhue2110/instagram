@@ -14,7 +14,7 @@ import styles from './styles'
 const HomeScreen = () => {
   return(<View>
 
-<Profile/>
+    <Profile/>
     </View>);
   
 };
