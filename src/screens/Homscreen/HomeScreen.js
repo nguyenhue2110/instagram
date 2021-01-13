@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 
 import styles from './styles'
- import Profile from '../Profile/Profile'
+ import Profile from '../../components/Profile/Profile'
 const HomeScreen = () => {
   return(<View>
 
