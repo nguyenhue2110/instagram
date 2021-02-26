@@ -17,5 +17,13 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: 'white',
   },
+  button:{
+    borderWidth:1,
+    width:30,
+    height:30,
+    borderRadius:15,
+    alignItems:'center',
+    justifyContent:'center'
+  }
 });
 export default styles;
