@@ -11,12 +11,14 @@ import {
 
 import styles from './styles';
 import Profile from '../../components/Profile/Profile';
+import Strories from '../../components/Stories/Storidata';
 const HomeScreen = () => {
   const [count, setCount] = useState(0);
   return (
     <View>
-      {/* <Profile /> */}
-      <View
+      <Strories/>
+
+      {/* <View
         style={{
           flexDirection: 'row',
           padding: 20,
@@ -42,7 +44,7 @@ const HomeScreen = () => {
             <Text>+</Text>
           </TouchableOpacity>
         </View>
-      </View>
+      </View> */}
     </View>
   );
 };

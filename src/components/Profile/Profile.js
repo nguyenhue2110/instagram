@@ -1,5 +1,6 @@
 import React from 'react';
 import {Text, Image, View} from 'react-native';
+import { ReloadInstructions } from 'react-native/Libraries/NewAppScreen';
 import styles from './/styles';
 
 const Profile = ({uri}) => {
@@ -15,3 +16,4 @@ const Profile = ({uri}) => {
 };
 
 export default Profile;
+
