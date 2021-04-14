@@ -12,6 +12,8 @@ const Profile = ({uri}) => {
       />
     </View>
   );
-};
+      };
 
+
+      
 export default Profile;

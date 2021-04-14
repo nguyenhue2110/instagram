@@ -15,7 +15,7 @@ const HomeScreen = () => {
   const [count, setCount] = useState(0);
   return (
     <View>
-      {/* <Profile /> */}
+      <Profile />
       <View
         style={{
           flexDirection: 'row',
@@ -47,3 +47,4 @@ const HomeScreen = () => {
   );
 };
 export default HomeScreen;
+
